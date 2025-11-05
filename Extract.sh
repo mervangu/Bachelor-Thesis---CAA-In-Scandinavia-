@@ -1,6 +1,3 @@
-Here's the updated script with the filename changed:
-
-```bash
 #!/bin/bash
 set -euo pipefail
 
