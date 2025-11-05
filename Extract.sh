@@ -63,7 +63,7 @@ no_count=$(wc -l < all_no.csv)
 se_count=$(wc -l < all_se.csv)
 dk_count=$(wc -l < all_dk.csv)
 scandinavian_count=$(wc -l < all_scandinavian.csv)
-all_100k_count=$(wc -l < all_domains_100k_no_scandinavian.csv)
+all_100k_count=$(wc -l < 100k_globally.csv)
 
 echo "Results:"
 echo "Scandinavian domains:"
