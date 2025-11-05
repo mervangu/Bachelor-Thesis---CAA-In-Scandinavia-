@@ -1,0 +1,86 @@
+#!/bin/bash
+set -euo pipefail
+
+if [ $# -eq 0 ]; then
+    echo "Usage: ./hope.sh <tranco_file>"
+    exit 1
+fi
+
+INPUT_FILE="$1"
+
+if [ ! -f "$INPUT_FILE" ]; then
+    echo "Error: File '$INPUT_FILE' not found!"
+    exit 1
+fi
+
+echo "Extracting domains..."
+echo ""
+
+# Extract column 2 for the domains
+tail -n +2 "$INPUT_FILE" | cut -d',' -f2 > domains_only.csv
+
+# Extract all Norwegian domains
+echo "Extracting all .no domains..."
+sed 's/\r//g; s/^[[:space:]]*//; s/[[:space:]]*$//' domains_only.csv | \
+  awk '/\.no$/ && !seen[$0]++' > all_no.csv
+
+# Extract all Swedish domains
+echo "Extracting all .se domains..."
+sed 's/\r//g; s/^[[:space:]]*//; s/[[:space:]]*$//' domains_only.csv | \
+  awk '/\.se$/ && !seen[$0]++' > all_se.csv
+
+# Extract all Danish domains
+echo "Extracting all .dk domains..."
+sed 's/\r//g; s/^[[:space:]]*//; s/[[:space:]]*$//' domains_only.csv | \
+  awk '/\.dk$/ && !seen[$0]++' > all_dk.csv
+
+# Extract all Scandinavian domains combined
+echo "Extracting all Scandinavian domains..."
+sed 's/\r//g; s/^[[:space:]]*//; s/[[:space:]]*$//' domains_only.csv | \
+  awk '/\.(no|se|dk)$/ && !seen[$0]++' > all_scandinavian.csv
+
+# Top 100k non-Scandinavian domains
+echo "Building top 100,000 non-Scandinavian domains..."
+awk -F',' '
+  BEGIN{
+    target=100000;
+  }
+  NR==1 { next }                          
+  {
+    d=$2;
+    gsub(/\r/,"",d);
+    gsub(/^[[:space:]]+|[[:space:]]+$/,"",d);
+    if (d ~ /\.(no|se|dk)$/) next;         # exclude Scandinavian domains
+    if (!seen[d]++) {
+      print d;
+      if (++c==target) exit;
+    }
+  }
+' "$INPUT_FILE" > all_domains_100k_no_scandinavian.csv
+
+# Count results
+no_count=$(wc -l < all_no.csv)
+se_count=$(wc -l < all_se.csv)
+dk_count=$(wc -l < all_dk.csv)
+scandinavian_count=$(wc -l < all_scandinavian.csv)
+all_100k_count=$(wc -l < all_domains_100k_no_scandinavian.csv)
+
+echo "Results:"
+echo "Scandinavian domains:"
+echo "  Norwegian (.no): $no_count"
+echo "  Swedish (.se): $se_count"
+echo "  Danish (.dk): $dk_count"
+echo "  All Scandinavian combined: $scandinavian_count"
+echo ""
+echo "Global domains:"
+echo "  Top 100k (no Scandinavian): $all_100k_count"
+echo ""
+echo "Files created:"
+echo "  - all_no.csv (all Norwegian domains)"
+echo "  - all_se.csv (all Swedish domains)"
+echo "  - all_dk.csv (all Danish domains)"
+echo "  - all_scandinavian.csv (all Scandinavian domains combined)"
+echo "  - all_domains_100k_no_scandinavian.csv (top 100k, no Scandinavian)"
+
+# Cleanup the file 
+rm -f domains_only.csv
