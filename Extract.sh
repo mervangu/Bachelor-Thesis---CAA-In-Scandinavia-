@@ -1,3 +1,6 @@
+Here's the updated script with the filename changed:
+
+```bash
 #!/bin/bash
 set -euo pipefail
 
@@ -40,7 +43,7 @@ sed 's/\r//g; s/^[[:space:]]*//; s/[[:space:]]*$//' domains_only.csv | \
   awk '/\.(no|se|dk)$/ && !seen[$0]++' > all_scandinavian.csv
 
 # Top 100k non-Scandinavian domains
-echo "Building top 100,000 non-Scandinavian domains..."
+echo "Building top 100,000 global domains (excluding Scandinavian)..."
 awk -F',' '
   BEGIN{
     target=100000;
@@ -56,15 +59,16 @@ awk -F',' '
       if (++c==target) exit;
     }
   }
-' "$INPUT_FILE" > all_domains_100k_no_scandinavian.csv
+' "$INPUT_FILE" > 100k_globally.csv
 
 # Count results
 no_count=$(wc -l < all_no.csv)
 se_count=$(wc -l < all_se.csv)
 dk_count=$(wc -l < all_dk.csv)
 scandinavian_count=$(wc -l < all_scandinavian.csv)
-all_100k_count=$(wc -l < 100k_globally.csv)
+global_100k_count=$(wc -l < 100k_globally.csv)
 
+echo ""
 echo "Results:"
 echo "Scandinavian domains:"
 echo "  Norwegian (.no): $no_count"
@@ -73,14 +77,14 @@ echo "  Danish (.dk): $dk_count"
 echo "  All Scandinavian combined: $scandinavian_count"
 echo ""
 echo "Global domains:"
-echo "  Top 100k (no Scandinavian): $all_100k_count"
+echo "  Top 100k (excluding Scandinavian): $global_100k_count"
 echo ""
 echo "Files created:"
 echo "  - all_no.csv (all Norwegian domains)"
 echo "  - all_se.csv (all Swedish domains)"
 echo "  - all_dk.csv (all Danish domains)"
 echo "  - all_scandinavian.csv (all Scandinavian domains combined)"
-echo "  - all_domains_100k_no_scandinavian.csv (top 100k, no Scandinavian)"
+echo "  - 100k_globally.csv (top 100k global, excluding Scandinavian)"
 
-# Cleanup the file 
+# Cleanup
 rm -f domains_only.csv
