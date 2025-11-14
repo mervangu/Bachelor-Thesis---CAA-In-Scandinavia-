@@ -1,0 +1,157 @@
+#!/bin/bash
+
+if [ $# -lt 2 ]; then
+    echo "Usage: $0 <caa_data.json> <output_prefix>"
+    echo "Example: $0 domains.json NORWAY"
+    exit 1
+fi
+
+INPUT_FILE="$1"
+OUTPUT_PREFIX="$2"
+OUTPUT_FILE="${OUTPUT_PREFIX}_caa_analysis.txt"
+
+if [ ! -f "$INPUT_FILE" ]; then
+    echo "Error: File '$INPUT_FILE' not found!"
+    exit 1
+fi
+
+echo "CAA DNS RECORD ANALYSIS"
+echo "Input file: $INPUT_FILE"
+echo "Output file: $OUTPUT_FILE"
+
+# Count total domains (handles both JSON array and JSONL)
+total_domains=$(jq -s 'length' "$INPUT_FILE" 2>/dev/null || cat "$INPUT_FILE" | wc -l)
+
+{
+echo "CAA DNS RECORD ANALYSIS"
+echo "Analysis date: $(date)"
+echo "Input file: $INPUT_FILE"
+echo "Total domains analyzed: $total_domains"
+echo ""
+
+# Create temporary file for analysis
+TEMP_FILE=$(mktemp)
+jq -s '.' "$INPUT_FILE" > "$TEMP_FILE" 2>/dev/null || cat "$INPUT_FILE" | jq -s '.' > "$TEMP_FILE"
+
+# Count domains with each tag
+echo "TAG USAGE:"
+issue_count=$(jq '[.[] | select(.results.CAA.data.answers[]?.tag == "issue") | .name] | unique | length' "$TEMP_FILE")
+issuewild_count=$(jq '[.[] | select(.results.CAA.data.answers[]?.tag == "issuewild") | .name] | unique | length' "$TEMP_FILE")
+iodef_count=$(jq '[.[] | select(.results.CAA.data.answers[]?.tag == "iodef") | .name] | unique | length' "$TEMP_FILE")
+domains_with_caa=$(jq '[.[] | select(.results.CAA.data.answers? | length > 0) | .name] | unique | length' "$TEMP_FILE")
+
+echo "  Domains with any CAA records: $domains_with_caa"
+echo "  Domains with 'issue':         $issue_count"
+echo "  Domains with 'issuewild':     $issuewild_count"
+echo "  Domains with 'iodef':         $iodef_count"
+
+# Calculate percentages
+if [ $total_domains -gt 0 ]; then
+    caa_percent=$(echo "scale=2; $domains_with_caa * 100 / $total_domains" | bc)
+    issue_percent=$(echo "scale=2; $issue_count * 100 / $total_domains" | bc)
+    issuewild_percent=$(echo "scale=2; $issuewild_count * 100 / $total_domains" | bc)
+    iodef_percent=$(echo "scale=2; $iodef_count * 100 / $total_domains" | bc)
+    
+    echo ""
+    echo "PERCENTAGES (of total domains):"
+    echo "  Domains with any CAA records: $caa_percent%"
+    echo "  Domains with 'issue':         $issue_percent%"
+    echo "  Domains with 'issuewild':     $issuewild_percent%"
+    echo "  Domains with 'iodef':         $iodef_percent%"
+fi
+
+# TAG COMBINATIONS
+echo ""
+echo "TAG COMBINATIONS:"
+
+# Domains with both issue and issuewild
+both_issue_issuewild=$(jq '[.[] | select(
+  ([.results.CAA.data.answers[]?.tag] | contains(["issue"])) and
+  ([.results.CAA.data.answers[]?.tag] | contains(["issuewild"]))
+) | .name] | unique | length' "$TEMP_FILE")
+
+# Domains with all three tags
+all_three_tags=$(jq '[.[] | select(
+  ([.results.CAA.data.answers[]?.tag] | contains(["issue"])) and
+  ([.results.CAA.data.answers[]?.tag] | contains(["issuewild"])) and
+  ([.results.CAA.data.answers[]?.tag] | contains(["iodef"]))
+) | .name] | unique | length' "$TEMP_FILE")
+
+if [ $total_domains -gt 0 ]; then
+    both_percent=$(echo "scale=2; $both_issue_issuewild * 100 / $total_domains" | bc)
+    all_three_percent=$(echo "scale=2; $all_three_tags * 100 / $total_domains" | bc)
+    
+    echo "  Domains with 'issue' AND 'issuewild': $both_issue_issuewild"
+    echo "  Percentage: $both_percent%"
+    echo "  Domains with all three tags (issue, issuewild, iodef): $all_three_tags"
+    echo "  Percentage: $all_three_percent%"
+fi
+
+# Find unknown tags
+echo ""
+echo "POTENTIAL ISSUES:"
+echo "Unknown or misspelled tags:"
+unknown_tags=$(jq -r '[.[] | .results.CAA.data.answers[]?.tag] | unique | .[] | select(. != "issue" and . != "issuewild" and . != "iodef" and . != null)' "$TEMP_FILE" 2>/dev/null)
+if [ -n "$unknown_tags" ]; then
+    echo "$unknown_tags" | sed 's/^/  - /'
+else
+    echo "  None found \u2713"
+fi
+
+# Most used CAs
+echo ""
+echo "MOST USED CERTIFICATE AUTHORITIES:"
+jq -r '[.[] | .results.CAA.data.answers[] | select(.tag == "issue" or .tag == "issuewild") | select(.value != ";") | .value] | group_by(.) | map({ca: .[0], count: length}) | sort_by(.count) | reverse | .[] | "\(.ca): \(.count)"' "$TEMP_FILE" | head -15 | sed 's/^/  /'
+
+# Domains with multiple CAs (count only)
+echo ""
+multi_ca_count=$(jq '[.[] | {domain: .name, cas: [.results.CAA.data.answers[] | select(.tag == "issue" or .tag == "issuewild") | select(.value != ";") | .value] | unique} | select(.cas | length > 1)] | length' "$TEMP_FILE")
+echo "DOMAINS WITH MULTIPLE CAs:  $multi_ca_count"
+
+# Generate summary CSV
+CSV_FILE="${OUTPUT_PREFIX}_caa_summary.csv"
+
+echo "domain,has_caa,issue_count,issuewild_count,iodef_count,ca_list" > "$CSV_FILE"
+jq -r '.[] | {
+  domain: .name,
+  has_caa: (if .results.CAA.data.answers? and (.results.CAA.data.answers | length > 0) then "true" else "false" end),
+  issue_count: [.results.CAA.data.answers[]? | select(.tag == "issue")] | length,
+  issuewild_count: [.results.CAA.data.answers[]? | select(.tag == "issuewild")] | length,
+  iodef_count: [.results.CAA.data.answers[]? | select(.tag == "iodef")] | length,
+  ca_list: ([.results.CAA.data.answers[]? | select(.tag == "issue" or .tag == "issuewild") | .value] | unique | join(";"))
+} | [.domain, .has_caa, .issue_count, .issuewild_count, .iodef_count, .ca_list] | @csv' "$TEMP_FILE" >> "$CSV_FILE"
+
+# Generate separate file for domains with multiple CAs
+MULTI_CA_FILE="${OUTPUT_PREFIX}_multiple_cas.txt"
+jq -r '.[] | {
+  domain: .name,
+  cas: [.results.CAA.data.answers[] | select(.tag == "issue" or .tag == "issuewild") | select(.value != ";") | .value] | unique
+} | select(.cas | length > 1) | "\(.domain): \(.cas | join(", "))"' "$TEMP_FILE" > "$MULTI_CA_FILE"
+
+# Generate file for domains with both issue and issuewild
+BOTH_TAGS_FILE="${OUTPUT_PREFIX}_issue_and_issuewild.txt"
+jq -r '.[] | select(
+  ([.results.CAA.data.answers[]?.tag] | contains(["issue"])) and
+  ([.results.CAA.data.answers[]?.tag] | contains(["issuewild"]))
+) | .name' "$TEMP_FILE" > "$BOTH_TAGS_FILE"
+
+# Generate file for domains with all three tags
+ALL_TAGS_FILE="${OUTPUT_PREFIX}_all_three_tags.txt"
+jq -r '.[] | select(
+  ([.results.CAA.data.answers[]?.tag] | contains(["issue"])) and
+  ([.results.CAA.data.answers[]?.tag] | contains(["issuewild"])) and
+  ([.results.CAA.data.answers[]?.tag] | contains(["iodef"]))
+) | .name' "$TEMP_FILE" > "$ALL_TAGS_FILE"
+
+# Clean up
+rm "$TEMP_FILE"
+
+} | tee "$OUTPUT_FILE"
+
+echo ""
+echo "Results saved to:"
+echo "  - $OUTPUT_FILE (detailed analysis)"
+echo "  - $CSV_FILE (CSV summary)"
+echo "  - $MULTI_CA_FILE (domains with multiple CAs)"
+echo "  - $BOTH_TAGS_FILE (domains with issue + issuewild)"
+echo "  - $ALL_TAGS_FILE (domains with all three tags)"
