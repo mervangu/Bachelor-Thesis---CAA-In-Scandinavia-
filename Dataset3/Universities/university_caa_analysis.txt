@@ -1,0 +1,140 @@
+NORWEGIAN DOMAINS
+
+===== uio.no =====
+0 issue "harica.gr"
+0 iodef "mailto:cert@uio.no"
+0 issuewild "harica.gr"
+
+===== ntnu.no =====
+NO CAA RECORD
+
+===== uib.no =====
+NO CAA RECORD
+
+===== uit.no =====
+NO CAA RECORD
+
+===== uis.no =====
+NO CAA RECORD
+
+===== nmbu.no =====
+NO CAA RECORD
+
+===== oslomet.no =====
+0 issue "harica.gr"
+0 issuewild "letsencrypt.org"
+0 issuewild "harica.gr"
+0 iodef "mailto:csirt@oslomet.no"
+0 issue "letsencrypt.org"
+
+===== uia.no =====
+NO CAA RECORD
+
+===== hvl.no =====
+NO CAA RECORD
+
+===== usn.no =====
+NO CAA RECORD
+
+SWEDISH DOMAINS
+
+===== kth.se =====
+0 issue "sectigo.com"
+0 issue "letsencrypt.org"
+0 issue "digicert.com"
+0 issue "harica.gr"
+
+===== lu.se =====
+NO CAA RECORD
+
+===== uu.se =====
+NO CAA RECORD
+
+===== chalmers.se =====
+NO CAA RECORD
+
+===== su.se =====
+NO CAA RECORD
+
+===== gu.se =====
+0 issue "pki.goog"
+0 issue "digicert.com"
+0 issue "harica.gr"
+0 issue "godaddy.com"
+0 issue "letsencrypt.org"
+0 issue "sectigo.com"
+
+===== liu.se =====
+NO CAA RECORD
+
+===== umu.se =====
+NO CAA RECORD
+
+===== ki.se =====
+NO CAA RECORD
+
+===== slu.se =====
+NO CAA RECORD
+
+DANSIH DOMAINS
+
+===== au.dk =====
+0 issue "sectigo.com"
+0 issue "amazon.com"
+0 issuewild "harica.gr"
+0 issue "harica.gr"
+0 issue "globalsign.com"
+0 iodef "mailto:cert@au.dk"
+0 issue "digicert.com"
+0 issuewild "globalsign.com"
+0 issue "letsencrypt.org"
+0 issuewild "letsencrypt.org"
+
+===== ku.dk =====
+0 issuewild "harica.gr"
+0 iodef "mailto:hostmaster@ku.dk"
+0 issue "comodoca.com"
+0 issue "digicert.com"
+0 issue "amazon.com"
+0 issue "globalsign.com"
+0 issue "letsencrypt.org"
+0 issue "harica.gr"
+0 issue "sectigo.com"
+0 issuewild "letsencrypt.org"
+
+===== dtu.dk =====
+NO CAA RECORD
+
+===== aau.dk =====
+0 issue "godaddy.com"
+0 issuewild "godaddy.com"
+128 issue "letsencrypt.org"
+128 issuewild "letsencrypt.org"
+
+===== sdu.dk =====
+0 iodef "mailto:abuse@sdu.dk"
+0 issuewild "harica.gr"
+0 issue "digicert.com"
+0 issuewild "letsencrypt.org"
+0 issue "amazon.com"
+0 issue "globalsign.com"
+0 issue "amazonaws.com"
+0 issue "harica.gr"
+0 issue "letsencrypt.org"
+0 issue "amazontrust.com"
+
+===== ruc.dk =====
+NO CAA RECORD
+
+===== itu.dk =====
+NO CAA RECORD
+
+===== kp.dk =====
+NO CAA RECORD
+
+===== kadk.dk =====
+NO CAA RECORD
+
+===== musikkons.dk =====
+NO CAA RECORD
+

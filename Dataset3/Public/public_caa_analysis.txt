@@ -1,0 +1,175 @@
+===== vegvesen.no =====
+0 issuewild ";"
+0 issue "globalsign.com"
+
+===== skatteetaten.no =====
+
+===== altinn.no =====
+
+===== lovdata.no =====
+
+===== regjeringen.no =====
+
+===== politiet.no =====
+
+===== arbeidstilsynet.no =====
+
+===== forbrukerradet.no =====
+0 issue "digicert.com"
+0 issue "letsencrypt.org"
+0 issuewild "digicert.com"
+0 issue "sectigo.com"
+0 issuewild "sectigo.com"
+
+===== helsenorge.no =====
+0 issue "letsencrypt.org"
+0 issuewild ";"
+0 iodef "mailto:caa@nhn.no"
+0 issue "digicert.com"
+
+===== nav.no =====
+0 issue "sectigo.com"
+0 iodef "mailto:hostmaster@nav.no"
+0 issue "buypass.com"
+0 issue "digicert.com"
+
+===== lanekassen.no =====
+0 issue "digicert.com"
+0 issuemail "digicert.com"
+0 issuewild ";"
+0 issue "buypass.no"
+0 issue "buypass.com"
+
+===== udi.no =====
+0 issue "sectigo.com"
+0 issue "letsencrypt.org"
+0 issue "geotrust.com"
+0 issue "buypass.no"
+0 iodef "mailto:web-security@udi.no"
+
+===== digdir.no =====
+0 issue "buypass.no"
+0 issue "letsencrypt.org"
+0 issue "digicert.com"
+0 iodef "mailto:drift@digdir.no"
+0 issue "sectigo.com"
+0 issue "commfides.com"
+
+===== ssb.no =====
+
+===== nsm.no =====
+0 issue "pki.goog; cansignhttpexchanges=yes"
+0 issuewild "digicert.com; cansignhttpexchanges=yes"
+0 issue "comodoca.com"
+0 issuewild "pki.goog; cansignhttpexchanges=yes"
+0 iodef "mailto:it-services01@nsm.no"
+0 issuewild "ssl.com"
+0 issue "letsencrypt.org"
+0 issue "digicert.com; cansignhttpexchanges=yes"
+0 issuewild "comodoca.com"
+0 issue "ssl.com"
+0 issuewild "letsencrypt.org"
+0 issue "sectigo.com"
+
+===== transportstyrelsen.se =====
+0 issuewild "digicert.com"
+0 issue "digicert.com"
+
+===== skatteverket.se =====
+0 issue "expisoft.se"
+0 iodef "mailto:soc@skatteverket.se"
+0 issuemail ";"
+0 issuewild ";"
+0 issue "digicert.com"
+0 issuevmc ";"
+
+===== verksamt.se =====
+
+===== riksdagen.se =====
+0 issuewild ";"
+0 issue "harica.gr"
+0 issue "digicert.com"
+0 issue "sectigo.com"
+
+===== regeringen.se =====
+
+===== polisen.se =====
+128 iodef "mailto:cert@polisen.se"
+128 issue "digicert.com"
+
+===== arbetsmiljoverket.se =====
+
+===== konsumentverket.se =====
+
+===== 1177.se =====
+
+===== forsakringskassan.se =====
+
+===== csn.se =====
+0 issue "telia.com"
+0 issuewild "digicert.com"
+0 issue "acme.trust.telia.com"
+0 issue "letsencrypt.org"
+0 issuewild "telia.com"
+0 issue "digicert.com"
+
+===== migrationsverket.se =====
+
+===== digg.se =====
+
+===== scb.se =====
+
+===== msb.se =====
+0 issue "letsencrypt.org"
+0 issuewild "globalsign.com"
+0 issuewild "telia.com"
+0 iodef "mailto:certadmin@msb.se"
+0 issue "globalsign.com"
+0 issue "telia.com"
+0 issuewild "letsencrypt.org"
+
+===== sundhedsstyrelsen.dk =====
+
+===== skat.dk =====
+
+===== virk.dk =====
+0 issuewild "comodoca.com"
+0 issue "digicert.com; cansignhttpexchanges=yes"
+0 issue "comodoca.com"
+0 issue "letsencrypt.org"
+0 issue "globalsign.com"
+0 issuewild "letsencrypt.org"
+0 issue "pki.goog; cansignhttpexchanges=yes"
+0 issuewild "ssl.com"
+0 issuewild "pki.goog; cansignhttpexchanges=yes"
+0 issue "ssl.com"
+0 issuewild "globalsign.com"
+0 issuewild "digicert.com; cansignhttpexchanges=yes"
+
+===== retsinformation.dk =====
+
+===== statsministeriet.dk =====
+
+===== politi.dk =====
+
+===== arbejdstilsynet.dk =====
+
+===== forbrug.dk =====
+
+===== sundhed.dk =====
+128 issue "amazon.com"
+128 issue "letsencrypt.org"
+128 issue "digicert.com"
+
+===== borger.dk =====
+
+===== su.dk =====
+
+===== nydanmark.dk =====
+
+===== digst.dk =====
+
+===== dst.dk =====
+
+===== beredskabsstyrelsen.dk =====
+
