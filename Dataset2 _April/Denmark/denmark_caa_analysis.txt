@@ -1,0 +1,38 @@
+CAA DNS RECORD ANALYSIS
+Analysis date: 5 April 2026
+Input file: denmark_with_caa.json
+Total domains analyzed: 562
+
+TAG USAGE:
+  Domains with 'issue':         540 (96.08%)
+  Domains with 'issuewild':     315 (56.04%)
+  Domains with 'iodef':         164 (29.18%)
+
+TAG COMBINATIONS:
+  Domains with 'issue' AND 'issuewild': 315 (56.04%)
+  Domains with all three tags (issue, issuewild, iodef): 99 (17.61%)
+
+POTENTIAL ISSUES:
+Unknown or misspelled tags:
+  - Issue
+  - contactemail
+  - undefined
+
+MOST USED CERTIFICATE AUTHORITIES:
+  letsencrypt.org: 716
+  digicert.com: 526
+  pki.goog: 436
+  comodoca.com: 412
+  ssl.com: 395
+  globalsign.com: 176
+  sectigo.com: 109
+  amazon.com: 57
+  amazonaws.com: 36
+  amazontrust.com: 31
+  awstrust.com: 27
+  harica.gr: 18
+  godaddy.com: 15
+  rapidssl.com: 10
+  entrust.net: 10
+
+DOMAINS WITH MULTIPLE CAs: 363 (64.59%)
