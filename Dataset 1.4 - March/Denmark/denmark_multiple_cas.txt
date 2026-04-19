@@ -1,0 +1,163 @@
+ku.dk: amazon.com, comodoca.com, digicert.com, globalsign.com, harica.gr, letsencrypt.org, sectigo.com
+webhosting.dk: letsencrypt.org, sectigo.com
+au.dk: amazon.com, digicert.com, globalsign.com, harica.gr, letsencrypt.org, sectigo.com
+tv2.dk: affirmtrust.com, amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, geotrust.com, globalsign.com, letsencrypt.org, pki.goog, rapidssl.com
+aau.dk: godaddy.com, letsencrypt.org
+sdu.dk: amazon.com, amazonaws.com, amazontrust.com, digicert.com, globalsign.com, harica.gr, letsencrypt.org
+dk-hostmaster.dk: letsencrypt.org, sectigo.com
+danskespil.dk: awstrust.com, digicert.com, letsencrypt.org
+cbs.dk: comodoca.com, digicert.com, harica.gr, letsencrypt.org, sectigo.com, trust-provider.com, usertrust.com
+danskebank.dk: amazon.com, comodoca.com, digicert.com, entrust.net, globalsign.com, letsencrypt.org
+krak.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+fibianet.dk: digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+dsb.dk: amazontrust.com, awstrust.com, digicert.com, globalsign.com, letsencrypt.org
+mitid.dk: buypass.com, digicert.com, entrust.net, globalsign.com, identrust.com, letsencrypt.org, sectigo.com
+virk.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+datatilsynet.dk: digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+sundhed.dk: amazon.com, digicert.com, letsencrypt.org
+nordea.dk: digicert.com, entrust.net, globalsign.com, letsencrypt.org, sectigo.com
+stil.dk: amazon.com, digicert.com, letsencrypt.org, sectigo.com
+ioi.dk: digicert.com, globalsign.com, letsencrypt.org, pki.goog
+bet365.dk: digicert.com, pki.goog
+chosting.dk: comodo.com, comodoca.com, letsencrypt.org
+netic.dk: digicert.com, globalsign.com, letsencrypt.org
+jemogfix.dk: digicert.com, letsencrypt.org
+thomann.dk: digicert.com, letsencrypt.org, pki.goog
+klaravik.dk: digicert.com, letsencrypt.org, pki.goog
+ipapercms.dk: amazon.com, digicert.com, letsencrypt.org, pki.goog
+lex.dk: digicert.com, letsencrypt.org, pki.googl
+nhl-data.dk: digicert.com, letsencrypt.org, sectigo.com
+punktum.dk: digicert.com, letsencrypt.org, sectigo.com
+regionh.dk: digicert.com, globalsign.com, letsencrypt.org
+workbox.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+coolshop.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+netsite.dk: comodoca.com, letsencrypt.org
+ens.dk: digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+sitnet.dk: digicert.com, sectigo.com
+fabel.dk: certainly.com, letsencrypt.org
+deic.dk: harica.gr, letsencrypt.org, sectigo.com
+diis.dk: Digicert.com, letsencrypt.org
+pokerstars.dk: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+legoland.dk: amazonaws.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+fdm.dk: amazon.com, digicert.com, globalsign.com
+spies.dk: digicert.com, globalsign.com, letsencrypt.org
+tivolicasino.dk: digicert.com, letsencrypt.org
+jubii.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+nyheder24.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+unibet.dk: amazon.com, digicert.com, letsencrypt.org, ssl.com, trustwave.com
+statens-it.dk: digicert.com, entrust.net, letsencrypt.org, sectigo.com
+dansknet.dk: globalsign.com, letsencrypt.org
+helsebixen.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+sydbank.dk: comodoca.com, digicert.com, globalsign.com, infocert.it, letsencrypt.org, pki.goog, ssl.com
+i2.dk: harica.gr, letsencrypt.org, sectigo.com
+degulesider.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+bet25.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+odense.dk: amazon.com, comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+dkwebcam.dk: globalsign.com, sectigo.com
+ellos.dk: amazon.com, digicert.com, godaddy.com, letsencrypt.org, pki.goog
+skoleintra.dk: amazon.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+dingeo.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+dinero.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+feline.dk: letsencrypt.org, rapidssl.com
+schibsted.dk: amazon.com, digicert.com, letsencrypt.org
+systime.dk: amazontrust.com, comodoca.com, globalsign.com, letsencrypt.org, rapidssl.com
+get2net.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+mariacasino.dk: letsencrypt.org, ssl.com, trustwave.com
+gjensidige.dk: buypass.no, digicert.com, letsencrypt.org
+mobilepay.dk: digicert.com, globalsign.com, godaddy.com
+notino.dk: comodoca.com, digicert.com, geotrust.com, letsencrypt.org, pki.goog, ssl.com
+alka.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+sparnord.dk: globalsign.com, infocert.it, letsencrypt.org
+moensted.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+dustin.dk: amazon.com, amazonaws.com, amazontrust.com, amazonws.com, awstrust.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+eatonline.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+clever.dk: certainly.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog
+casinogo.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+netdoktor.dk: cloudflaressl.com, globalsign.com, letsencrypt.org, pki.goog
+orsted.dk: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, globalsign.com
+dagens.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+billetten.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+nemlog-in.dk: comodoca.com, digicert.com, globalsign.com, sectigo.com
+droso.dk: comodoca.com, letsencrypt.org
+ilva.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+dgi.dk: digicert.com, globalsign.com, pki.goog, sectigo.com
+apollorejser.dk: amazon.com, comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+storebaelt.dk: amazonaws.com, comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+stepnetwork.dk: letsencrypt.org, pki.goog, sectigo.com
+travelmarket.dk: amazontrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+mitcfu.dk: comodoca.com, digicert.com, harica.gr, letsencrypt.org, pki.goog, ssl.com
+webapoteket.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+getyourguide.dk: amazon.com, digicert.com, letsencrypt.org, pki.goog
+miinto.dk: certum.pl, digicert.com
+ucl.dk: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org, sectigo.com
+csis.dk: digicert.com, letsencrypt.org
+rudersdal.dk: amazon.com, digicert.com, globalsign.com, letsencrypt.org
+kviknet.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+billigparfume.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+jala-helsekost.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+landbobanken.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+danskefilm.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+billigventilation.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+jacobsenmobler.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+topdrinks.dk: digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+sol.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+emp-shop.dk: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org, sectigo.com
+3deksperten.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+multimed.dk: digicert.com, globalsign.com, letsencrypt.org
+evermart.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+roblox.dk: amazonaws.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+daekonline.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+sjfbank.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+friheden.dk: comodoca.com, digicert.com, globalsign.com, godaddy.com, letsencrypt.org, pki.goog, ssl.com
+synoptik.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+bambuni.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+curvii.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+made4men.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+bolighub.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+spks.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+optimalprint.dk: amazonaws.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+banknorwegian.dk: digicert.com, letsencrypt.org
+psykiatrifonden.dk: amazonaws.com, digicert.com, letsencrypt.org, pki.goog
+babygear.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+wnb.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+falck.dk: amazonaws.com, comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, symantec.com, zerossl.com
+chrono24.dk: amazonaws.com, digicert.com, godaddy.com, letsencrypt.org, sectigo.com
+bankdata.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+eventbrite.dk: amazon.com, amazonaws.com, amazontrust.com, awstrust.com
+moderno.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+nympho.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+erotikmix.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+marialottes.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+bn.dk: GlobalSign.com, comodoca.com, digicert.com, globalsign.com, godaddy.com, letsencrypt.org, pki.goog, ssl.com
+ebay.dk: comodoca.com, symantec.com
+lux-case.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+dorchdanola.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+hyundai.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+hurtigmums.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+safeticket.dk: geotrust.com, letsencrypt.org, rapidssl.com
+biq.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+sofus.dk: globalsign.com, letsencrypt.org
+raspberrypi.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+emmaolsen.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+majspassion.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+sexhub.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+clausdalby.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+laerepladsen.dk: comodoca.com, sectigo.com
+pokerstarscasino.dk: amazonaws.com, digicert.com
+konservative.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+dustinhome.dk: amazon.com, amazonaws.com, amazontrust.com, amazonws.com, awstrust.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+strawberry.dk: Digicert.com, amazonaws.com, buypass.com, letsencrypt.org
+itconfidence.dk: globalsign.com, letsencrypt.org
+campaya.dk: digicert.com, godaddy.com, letsencrypt.org, pki.goog, sectigo.com
+miele.dk: awstrust.com, digicert.com
+guldsmykket.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+hilli.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+worldonline.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+skjernbank.dk: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+bedrenaetter.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+okcloud.dk: digicert.com, letsencrypt.org, pki.goog
+gastromad.dk: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+dagenslaengde.dk: letsencrypt.org, pki.goog, sectigo.com
+digitalservicebog.dk: amazonaws.com, letsencrypt.org, sectigo.com
+fdmshop.dk: digicert.com, globalsign.com
+coffeecollective.dk: letsencrypt.org, pki.goog, ssl.com
