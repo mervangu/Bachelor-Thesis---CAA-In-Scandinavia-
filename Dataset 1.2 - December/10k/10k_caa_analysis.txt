@@ -1,0 +1,41 @@
+CAA DNS RECORD ANALYSIS
+Analysis date: 10 December 2025
+Input file: 10k_with_caa.json
+Total domains analyzed: 2013
+
+TAG USAGE:
+  Domains with 'issue':         1904 (94.58%)
+  Domains with 'issuewild':     923 (45.85%)
+  Domains with 'iodef':         599 (29.75%)
+
+TAG COMBINATIONS:
+  Domains with 'issue' AND 'issuewild': 923 (45.85%)
+  Domains with all three tags (issue, issuewild, iodef): 285 (14.15%)
+
+POTENTIAL ISSUES:
+Unknown or misspelled tags:
+  - contactemail
+  - ideof
+  - issuemail
+  - issues
+  - issuevmc
+  - wild
+
+MOST USED CERTIFICATE AUTHORITIES:
+  letsencrypt.org: 1884
+  digicert.com: 1798
+  pki.goog: 1542
+  comodoca.com: 1022
+  ssl.com: 906
+  amazon.com: 775
+  sectigo.com: 572
+  globalsign.com: 532
+  amazonaws.com: 326
+  amazontrust.com: 268
+  awstrust.com: 228
+  godaddy.com: 195
+  entrust.net: 79
+  microsoft.com: 62
+  certainly.com: 55
+
+DOMAINS WITH MULTIPLE CAs: 1394 (69.24%)
