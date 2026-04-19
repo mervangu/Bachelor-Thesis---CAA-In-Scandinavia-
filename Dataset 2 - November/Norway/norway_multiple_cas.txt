@@ -1,0 +1,316 @@
+dnb.no: amazon.com, buypass.com, digicert.com, letsencrypt.org
+uninett.no: amazon.com, harica.gr, letsencrypt.org, sectigo.com
+helsenorge.no: digicert.com, letsencrypt.org
+norid.no: digicert.com, letsencrypt.org;validationmethods=dns-01, sectigo.com
+online.no: buypass.no, sectigo.com, telenor.net, trust-provider.com, usertrust.com
+telenor.no: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, buypass.no, letsencrypt.org, sectigo.com, telenor.net
+nextra.no: buypass.no, telenor.net
+dn.no: amazonaws.com, certainly.com, digicert.com, pki.goog, sectigo.com
+sparebank1.no: amazonaws.com, buypass.com, digicert.com, letsencrypt.org, sectigo.com
+nav.no: buypass.com, digicert.com, sectigo.com
+norsk-tipping.no: amazonaws.com, buypass.com, digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+snl.no: letsencrypt.org, pki.googl
+abcnyheter.no: amazon.com, amazonaws.com, digicert.com, letsencrypt.org, pki.goog
+bankid.no: buypass.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+storebrand.no: amazon.com, buypass.no, digicert.com, globalsign.com, infocert.it, letsencrypt.org, pki.goog
+gulesider.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+unit.no: amazon.com, harica.gr, letsencrypt.org
+domeneshop.no: digicert.com, letsencrypt.org
+nordea.no: buypass.no, digicert.com, entrust.net, globalsign.com, letsencrypt.org, sectigo.com
+nb.no: harica.gr, letsencrypt.org, sectigo.com
+oslomet.no: harica.gr, letsencrypt.org
+gjensidige.no: buypass.no, digicert.com, letsencrypt.org, pki.goog
+rikstoto.no: digicert.com, globalsign.com, letsencrypt.org
+mykid.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+fiken.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+nhn.no: digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+forbrukerradet.no: digicert.com, letsencrypt.org
+ving.no: digicert.com, globalsign.com, letsencrypt.org
+udi.no: buypass.no, geotrust.com, letsencrypt.org
+pcsupport.no: buypass.no, globalsign.com, letsencrypt.com, letsencrypt.org, trustzone.com
+bibsys.no: amazon.com, harica.gr, letsencrypt.org
+bi.no: digicert.com, letsencrypt.org, pki.goog, sectigo.com
+stortinget.no: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, buypass.com, buypass.no, harica.gr, letsencrypt.org, pki.goog; cansignhttpexchanges=yes
+vitusapotek.no: comodoca.com., globalsign.com, letsencrypt.org, sectigo.com
+rema.no: digicert.com, entrust.net, pki.goog, sectigo.com
+strawberry.no: Digicert.com, amazonaws.com, buypass.com, letsencrypt.org
+sykehuspartner.no: buypass.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+wideroe.no: awstrust.com, buypass.no, comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+digipost.no: buypass.no, letsencrypt.org
+ellos.no: amazon.com, digicert.com, godaddy.com, letsencrypt.org, pki.goog
+npolar.no: buypass.com, buypass.no, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+kartverket.no: buypass.com, digicert.com, letsencrypt.org
+tikt.no: buypass.com, buypass.no, digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+banenor.no: buypass.no, digicert.com
+miljodirektoratet.no: buypass.no, comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog
+braathe.no: digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+inn.no: harica.gr, letsencrypt.org
+sikt.no: amazon.com, harica.gr, letsencrypt.org, sectigo.com
+spv.no: amazontrust.com, awstrust.com, buypass.no, digicert.com, letsencrypt.org, sectigo.com
+osloskole.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+startsiden.no: amazon.com, letsencrypt.org
+telia-isp.no: letsencrypt.org, sonera.net, telia.fi
+mattilsynet.no: buypass.com, digicert.com, letsencrypt.org, pki.goog
+reisenett.no: buypass.com, digicert.com, letsencrypt.org, sectigo.com
+dibk.no: buypass.no, comodoca.com, digicert.com; cansignhttpexchanges=yes, godaddy.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+norceresearch.no: letsencrypt.org, sectigo.com
+utdanning.no: harica.gr, sectigo.com
+banknorwegian.no: digicert.com, letsencrypt.org
+netonnet.no: amazontrust.com, globalsign.com, letsencrypt.org
+cmi.no: digicert.com, harica.gr, sectigo.com
+kystverket.no: buypass.no, digicert.com, globalsign.com, letsencrypt.org, pki.goog
+fjordmail.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+boots.no: buypass.no, digicert.com, godaddy.com, letsencrypt.org, sectigo.com
+pluto.no: buypass.com, digicert.com, letsencrypt.org, sectigo.com
+arkivverket.no: letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com
+innocode.no: letsencrypt.org, pki.goog
+dyreparken.no: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, buypass.no, comodoca.com, digicert.com; cansignhttpexchanges=yes, godaddy.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+husbanken.no: sectigo.com, www.digicert.com
+mensa.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+komplettbedrift.no: comodo.com, globalsign.com, letsencrypt.org, symantec.com
+statnett.no: buypass.no, digicert.com, entrust.net, globalsign.com, letsencrypt.org, sectigo.com
+upheads.no: buypass.no, digicert.com, godaddy.com, letsencrypt.org, sectigo.com
+digdir.no: buypass.no, commfides.com, digicert.com, letsencrypt.org, sectigo.com
+bankidapis.no: buypass.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+apollo.no: amazonaws.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+eika.no: buypass.no, digicert.com, globalsign.com, sectigo.com
+miinto.no: certum.pl, digicert.com
+munchmuseet.no: buypass.no, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+frende.no: Digicert.com, awstrust.com, comodoca.com, letsencrypt.org
+marinebenefits.no: letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+autopass.no: letsencrypt.org, pki.goog; cansignhttpexchanges=yes
+vps.no: comodoca.com, geotrust.com, globalsign.com, letsencrypt.org, symantec.com
+vigilo-oas.no: digicert.com, geotrust.com, godaddy.com, www.digicert.com
+tjenestetorget.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+gard.no: digicert.com, geotrust.com, globalsign.com
+fiskeridir.no: buypass.no, certainly.com;validationmethods=dns-01, globalsign.com
+eiendomsmegler1.no: amazonaws.com, letsencrypt.org, sectigo.com
+nasjonaleturistveger.no: globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes
+dustin.no: amazon.com, amazonaws.com, amazontrust.com, amazonws.com, awstrust.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+norge.no: buypass.no, letsencrypt.org
+sbanken.no: awstrust.com, buypass.com, digicert.com, letsencrypt.org, pki.goog
+firstit.no: digicert.com, letsencrypt.org, sectigo.com
+kondomeriet.no: amazon.com, cloudflare.com, letsencrypt.org, sectigo.com
+minid.no: buypass.no, letsencrypt.org
+dustinhome.no: amazon.com, amazonaws.com, amazontrust.com, amazonws.com, awstrust.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+thomannmusic.no: digicert.com, letsencrypt.org, pki.goog
+webgate.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, godaddy.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+sticos.no: buypass.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+gamereactor.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+postkodelotteriet.no: amazon.com, globalsign.com
+nytelse.no: cloudflare.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+youpark.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, godaddy.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+mrfylke.no: buypass.com, buypass.no, digicert.com
+dips.no: buypass.com, buypass.no, digicert.com, godaddy.com, letsencrypt.org
+dnbbank.no: amazon.com, buypass.com, digicert.com, dvv.fi, fineid.fi
+folio.no: letsencrypt.org, pki.goog
+sv.no: buypass.no, letsencrypt.org
+reseptformidleren.no: buypass.no, letsencrypt.org
+prisradar.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+skittfiske.no: amazon.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+hivolda.no: harica.gr, letsencrypt.org, sectigo.com
+skagenfondene.no: amazon.com, buypass.no, globalsign.com, letsencrypt.org, pki.goog
+ife.no: digicert.com, harica.gr, letsencrypt.org, sectigo.com
+com4.no: digicert.com, letsencrypt.org, pki.goog
+animalia.no: buypass.no, digicert.com, letsencrypt.org, pki.goog
+justervesenet.no: comodoca.com, letsencrypt.org
+itpays.no: comodoca.com, letsencrypt.org
+optimalprint.no: amazonaws.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com
+nersc.no: globalsign.com, letsencrypt.org, sectigo.com
+nito.no: letsencrypt.org, pki.goog; cansignhttpexchanges=yes
+fagmobler.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+horze.no: digicert.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+skagerraksparebank.no: buypass.no, digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+sn.no: buypass.no, globalsign.com, sectigo.com
+mobile.no: awstrust.com, digicert.com, globalsign.com, letsencrypt.org
+emp-shop.no: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org, sectigo.com
+rogalandsparebank.no: buypass.no, globalsign.com, sectigo.com
+onevoice.no: comodoca.com, digicert.com, letsencrypt.org, sectigo.com
+ffi.no: digicert.com, godaddy.com, letsencrypt.org, microsoft.com, sectigo.com
+danskebank.no: amazon.com, buypass.com, globalsign.com
+bouvet.no: amazon.com, comodo.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, fastname.no, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com, trust-provider.com, usertrust.com
+stavanger.kommune.no: digicert.com, letsencrypt.org, sectigo.com
+nextgentel.no: digicert.com, letsencrypt.org, “globalsign.com”
+moller.no: amazon.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+holte.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, geotrust.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com, www.digicert.com
+kontorgiganten.no: awstrust.com, awstrust.com; cansignhttpexchanges=yes, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+apotekfordeg.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+avida.no: amazon.com, buypass.com, globalsign.com, godaddy.com, letsencrypt.org
+nsm.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+gibud.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+rsbank.no: buypass.no, globalsign.com, sectigo.com
+skuesparebank.no: buypass.no, globalsign.com, sectigo.com
+totenbanken.no: buypass.no, globalsign.com, sectigo.com
+xakt.no: digicert.com, letsencrypt.org
+sortere.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+norbits.no: letsencrypt.org, sectigo.com
+730.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+sammen.no: letsencrypt.org, rapidssl.com
+nordicchoicehotels.no: buypass.com, letsencrypt.org
+marineshop.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+riksrevisjonen.no: buypass.com, digicert.com, godaddy.com, sectigo.com
+esunnmore.no: globalsign.com, godaddy.com
+jotex.no: amazon.com, digicert.com, godaddy.com, letsencrypt.org, pki.goog
+hafslund.no: buypass.no, digicert.com, letsencrypt.org
+utrop.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+anbudstorget.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+homeroom.no: amazon.com, digicert.com, letsencrypt.org, pki.goog
+ikomm.no: amazon.com, buypass.no, digicert.com, globalsign.com, letsencrypt.org
+miele.no: awstrust.com, digicert.com
+aplus.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+klarna.no: amazonaws.com, digicert.com
+berg-hansen.no: digicert.com, godaddy.com, letsencrypt.org, pki.goog
+reiseguiden.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+acossky.no: buypass.no, digicert.com, letsencrypt.org
+provisoevent.no: buypass.no, letsencrypt.org, pki.goog
+mollerbil.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+srvr.no: buypass.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+papirfly.no: digicert.com, letsencrypt.org, ssl.com
+unisea.no: globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+inkognito.no: godaddy.com, letsencrypt.org
+zdata.no: buypass.com, buypass.no, digicert.com, letsencrypt.org
+fashiola.no: amazon.com, letsencrypt.org
+runsafe.no: buypass.no, letsencrypt.org
+chrono24.no: amazonaws.com, digicert.com, godaddy.com, letsencrypt.org, sectigo.com
+vglab.no: amazon.com, letsencrypt.org
+nc-spectrum.no: buypass.com, buypass.no, digicert.com, globalsign.com, letsencrypt.org
+bootshomecare.no: digicert.com, letsencrypt.org, sectigo.com
+dinstudio.no: globalsign.com, godaddy.com, letsencrypt.org, sectigo.com
+absnet.no: digicert.com, letsencrypt.org
+adeo.no: buypass.no, digicert.com, sectigo.com
+sharebox.no: amazon.com, letsencrypt.org
+jeanpaul.no: digicert.com, letsencrypt.org
+c-date.no: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org
+inet.no: digicert.com, letsencrypt.org
+legerutengrenser.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+horde.no: buypass.com, digicert.com, letsencrypt.org
+skyttelpass.no: digicert.com, letsencrypt.org
+nsc.no: buypass.no, telenor.net
+alesund.kommune.no: digicert.com, globalsign.com, godaddy.com, letsencrypt.org
+ra.no: buypass.no, globalsign.com, letsencrypt.org
+morrowbank.no: buypass.no, digicert.com, letsencrypt.org
+nexnordic.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+toogoodtogo.no: amazon.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+kristiansand.kommune.no: amazon.com, buypass.com, digicert.com, globalsign.com, letsencrypt.org
+financ.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+kulturminnesok.no: buypass.no, letsencrypt.org
+sch.no: amazon.com, buypass.com, digicert.com, letsencrypt.org
+hcpringen.no: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+miljostatus.no: buypass.no, letsencrypt.org
+io.kommune.no: buypass.no, digicert.com, letsencrypt.org
+ancestry.no: amazon.com, comodoca.com, digicert.com, globalsign.com, pki.goog; cansignhttpexchanges=yes, thawte.com
+agdersparebank.no: buypass.no, globalsign.com, sectigo.com
+aurskog-sparebank.no: buypass.no, digicert.com, globalsign.com, sectigo.com
+berg-sparebank.no: buypass.no, globalsign.com, sectigo.com
+boatparts.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+esbank.no: buypass.no, globalsign.com, sectigo.com
+grong-sparebank.no: buypass.no, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+hfilo.no: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+hsbank.no: buypass.no, globalsign.com, sectigo.com
+jaerensparebank.no: buypass.no, globalsign.com, sectigo.com
+kryssordkongen.no: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+lensway.no: globalsign.com, letsencrypt.org
+lillestrom.kommune.no: amazon.com, buypass.com, buypass.no, digicert.com, globalsign.com, letsencrypt.org
+marker-sparebank.no: buypass.no, globalsign.com, sectigo.com
+melhusbanken.no: buypass.no, globalsign.com, sectigo.com
+odal-sparebank.no: buypass.no, globalsign.com, sectigo.com
+orklasparebank.no: buypass.no, globalsign.com, sectigo.com
+ortorex.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+romsdalsbanken.no: buypass.no, globalsign.com, sectigo.com
+saseurobonusmastercard.no: amazonaws.com, digicert.com, entrust.net, letsencrypt.org, pki.goog, sectigo.com
+skien.kommune.no: buypass.com, digicert.com, letsencrypt.org
+sognbank.no: buypass.no, globalsign.com, sectigo.com
+trei.no: amazon.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+travelmarket.no: amazontrust.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+trondelagsparebank.no: buypass.no, digicert.com, globalsign.com, sectigo.com
+vekselbanken.no: buypass.no, globalsign.com, sectigo.com
+workinnorway.no: buypass.com, letsencrypt.org, pki.goog
+telenorexpo.no: letsencrypt.org, sectigo.com
+ebay.no: comodoca.com, symantec.com
+weleda.no: digicert.com, letsencrypt.org
+salmar.no: letsencrypt.org, pki.goog, www.digicert.com
+inspera.no: amazon.com, letsencrypt.org, ssl.com
+prisguiden.no: amazon.com, letsencrypt.org
+kreftregisteret.no: buypass.com, commfies.com, digicert.com, sectigo.com
+teleplanglobe.no: comodoca.com, digicert.com, letsencrypt.org
+webmed.no: buypass.no, letsencrypt.org
+dds.no: letsencrypt.org, pki.goog
+radio.no: comodoca.com, letsencrypt.org, thawte.com
+3cx.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+digipostdata.no: buypass.no, letsencrypt.org
+hihm.no: harica.gr, letsencrypt.org, sectigo.com
+landinfo.no: buypass.com, geotrust.com, letsencrypt.org
+brd.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+capitech.no: lencr.org, letsencrypt.org, pki.goog, r3.i.lencr.org
+cocks.no: actalis.it, buypass.no, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+enkeleksamen.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+elproffen.no: digicert.com, globalsign.com, letsencrypt.org
+kjellmannhome.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+hil.no: harica.gr, sectigo.com
+hostinger.no: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog
+vea-fs.no: digicert.com, letsencrypt.org
+udiregelverk.no: buypass.com, letsencrypt.org
+ffk.no: buypass.no, digicert.com, letsencrypt.org, sectigo.com
+spoton.no: amazon.com, letsencrypt.org
+adecco.no: letsencrypt.org, sectigo.com
+canariavisen.no: amazonaws.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+mollercloud.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+travelplanner.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+framo.no: crl.framo.no, globalsign.com
+parkly.no: digicert.com, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes
+transponder.no: buypass.no, certainly.com, letsencrypt.org, pki.goog
+conflingo.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+mogul.no: buypass.no, letsencrypt.org
+hjemmeautomasjon.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+xlab.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+extend.no: godaddy.com, letsencrypt.org, pki.goog
+60-dating.no: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org
+horten.kommune.no: digicert.com, letsencrypt.org
+livetpaslipen.no: letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+sonspa.no: buypass.com, letsencrypt.org
+jbvnett.no: digicert.com, letsencrypt.org
+discuss.no: actalis.it, buypass.com, comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+ren.no: buypass.no, letsencrypt.org
+brage.no: buypass.com, letsencrypt.org, sectigo.com
+allvit.no: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org, pki.goog
+grans.no: buypass.no, digicert.com, entrust.net, sectigo.com
+melkoghonning.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+netflix.no: digicert.com, letsencrypt.org, pki.goog
+gibbs.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+elkim.no: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+detsombetyrnoe.no: buypass.com, letsencrypt.org, pki.goog
+hypersys.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+rceksperten.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+westwing.no: amazon.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+eurocard.no: amazonaws.com, digicert.com, entrust.net, letsencrypt.org, pki.goog, sectigo.com
+slideplayer.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+alliance-healthcare.no: buypass.no, digicert.com, sectigo.com
+bien.no: buypass.no, globalsign.com, sectigo.com
+coptikk.no: godaddy.com, letsencrypt.org
+kyak.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+pearlgroup.no: amazon.com, digicert.com, letsencrypt.org
+ssf.no: buypass.com, buypass.no, digicert.com, letsencrypt.org, swift.com
+soundergy.no: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+tussa.no: digicert.com, globalsign.com, letsencrypt.org
+eduvpn.no: harica.gr, letsencrypt.org
+oria.no: amazontrust.com, harica.gr, letsencrypt.org
+razem.no: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+termosmedia.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+wataha.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+eskortejenter.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, globalsign.com, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, sectigo.com, ssl.com
+carnegie.no: buypass.com, digicert.com, letsencrypt.org
+handlerparts.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+helsecert.no: digicert.com, letsencrypt.org
+offshorerental.no: comodoca.com, letsencrypt.org
+aspnor.no: letsencrypt.org, sectigo.com
+wips.no: letsencrypt.org, sectigo.com
+fjordos.no: buypass.no, letsencrypt.org
+snapper.no: buypass.no, letsencrypt.org
+limberprojects.no: digicert.com, letsencrypt.org
+gamekeys.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+musikkstuen.no: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+sib.no: buypass.com, buypass.no, comodoca.com, letsencrypt.org
+countzero.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+porsgrunn.kommune.no: digicert.com, globalsign.com
+tbt.no: comodoca.com, digicert.com; cansignhttpexchanges=yes, letsencrypt.org, pki.goog; cansignhttpexchanges=yes, ssl.com
+jcdecaux.no: buypass.no, letsencrypt.org, pki.goog;cansignhttpexchanges=yes
