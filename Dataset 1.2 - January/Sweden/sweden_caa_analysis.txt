@@ -1,0 +1,38 @@
+CAA DNS RECORD ANALYSIS
+Analysis date: 12 January 2026
+Input file: sweden_with_caa.json
+Total domains analyzed: 342
+
+TAG USAGE:
+  Domains with 'issue':         333 (97.36%)
+  Domains with 'issuewild':     186 (54.38%)
+  Domains with 'iodef':         133 (38.88%)
+
+TAG COMBINATIONS:
+  Domains with 'issue' AND 'issuewild': 186 (54.38%)
+  Domains with all three tags (issue, issuewild, iodef): 76 (22.22%)
+
+POTENTIAL ISSUES:
+Unknown or misspelled tags:
+  - 0
+  - issuemail
+  - issuevmc
+
+MOST USED CERTIFICATE AUTHORITIES:
+  letsencrypt.org: 377
+  digicert.com: 300
+  pki.goog: 196
+  comodoca.com: 160
+  ssl.com: 142
+  sectigo.com: 90
+  globalsign.com: 76
+  amazon.com: 63
+  amazonaws.com: 49
+  telia.com: 33
+  harica.gr: 25
+  godaddy.com: 23
+  awstrust.com: 22
+  amazontrust.com: 21
+  trustwave.com: 8
+
+DOMAINS WITH MULTIPLE CAs: 259 (75.73%)
