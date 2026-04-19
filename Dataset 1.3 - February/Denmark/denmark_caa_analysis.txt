@@ -1,0 +1,36 @@
+CAA DNS RECORD ANALYSIS
+Analysis date: 15 February 2026
+Input file: denmark_with_caa.json
+Total domains analyzed: 218
+
+TAG USAGE:
+  Domains with 'issue':         212 (97.24%)
+  Domains with 'issuewild':     129 (59.17%)
+  Domains with 'iodef':         81 (37.15%)
+
+TAG COMBINATIONS:
+  Domains with 'issue' AND 'issuewild': 129 (59.17%)
+  Domains with all three tags (issue, issuewild, iodef): 49 (22.47%)
+
+POTENTIAL ISSUES:
+Unknown or misspelled tags:
+  None found \u2713
+
+MOST USED CERTIFICATE AUTHORITIES:
+  letsencrypt.org: 288
+  digicert.com: 234
+  pki.goog: 183
+  comodoca.com: 168
+  ssl.com: 158
+  globalsign.com: 82
+  sectigo.com: 58
+  amazon.com: 30
+  amazonaws.com: 20
+  amazontrust.com: 17
+  awstrust.com: 15
+  harica.gr: 13
+  godaddy.com: 10
+  rapidssl.com: 5
+  trustwave.com: 4
+
+DOMAINS WITH MULTIPLE CAs: 162 (74.31%)

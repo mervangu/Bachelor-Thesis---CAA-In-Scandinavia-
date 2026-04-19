@@ -1,0 +1,37 @@
+CAA DNS RECORD ANALYSIS
+Analysis date: 15 February 2026
+Input file: norway_with_caa.json
+Total domains analyzed: 208
+
+TAG USAGE:
+  Domains with 'issue':         206 (99.03%)
+  Domains with 'issuewild':     110 (52.88%)
+  Domains with 'iodef':         80 (38.46%)
+
+TAG COMBINATIONS:
+  Domains with 'issue' AND 'issuewild': 110 (52.88%)
+  Domains with all three tags (issue, issuewild, iodef): 42 (20.19%)
+
+POTENTIAL ISSUES:
+Unknown or misspelled tags:
+  - contactemail
+  - issuemail
+
+MOST USED CERTIFICATE AUTHORITIES:
+  letsencrypt.org: 214
+  digicert.com: 149
+  pki.goog: 111
+  sectigo.com: 81
+  comodoca.com: 74
+  ssl.com: 70
+  globalsign.com: 62
+  buypass.no: 57
+  harica.gr: 34
+  amazon.com: 32
+  buypass.com: 28
+  amazonaws.com: 20
+  awstrust.com: 18
+  godaddy.com: 15
+  amazontrust.com: 11
+
+DOMAINS WITH MULTIPLE CAs: 158 (75.96%)
