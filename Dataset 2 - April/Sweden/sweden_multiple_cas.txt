@@ -1,0 +1,485 @@
+loopia.se: digicert.com, sectigo.com
+netnod.se: letsencrypt.org, netnod.se
+blocket.se: amazon.com, certainly.com, digicert.com, letsencrypt.org, pki.goog
+hitta.se: amazon.com, digicert.com, letsencrypt.org, sectigo.com
+svd.se: amazon.com, buypass.com, digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+kth.se: digicert.com, harica.gr, letsencrypt.org, sectigo.com
+gu.se: digicert.com, godaddy.com, harica.gr, letsencrypt.org, pki.goog, sectigo.com
+pomf.se: letsencrypt.org, sectigo.com
+tele2.se: digicert.com, letsencrypt.org, sectigo.com
+skatteverket.se: digicert.com, expisoft.se
+stockholm.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org
+riksdagen.se: digicert.com, harica.gr, sectigo.com
+tv4.se: amazon.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, telia.com
+seb.se: amazonaws.com, buypass.no, digicert.com, entrust.net, letsencrypt.org, pki.goog, sectigo.com
+goteborg.se: amazonaws.com, letsencrypt.org, telia.com
+fortnox.se: comodoca.com, digicert.com, globalsign.com, infocert.it, letsencrypt.org, pki.goog, ssl.com
+trafikverket.se: telia.com, telia.se
+eniro.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+arbetsformedlingen.se: digicert.com, globalsign.com, letsencrypt.org
+broadview.se: letsencrypt.org, sectigo.com
+nordea.se: digicert.com, entrust.net, globalsign.com, letsencrypt.org, sectigo.com
+booli.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, cloudflare.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+ellos.se: amazon.com, digicert.com, godaddy.com, letsencrypt.org, pki.goog
+vackertvader.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+klaravik.se: digicert.com, letsencrypt.org, pki.goog
+tink.se: amazon.com, digicert.com, letsencrypt.org, multicert.com, sectigo.com
+csn.se: acme.trust.telia.com, digicert.com, letsencrypt.org, telia.com
+comviq.se: letsencrypt.org, sectigo.com
+netonnet.se: amazontrust.com, globalsign.com, letsencrypt.org
+pensionsmyndigheten.se: expisoft.se, globalsign.com
+ancestry.se: amazon.com, comodoca.com, digicert.com, globalsign.com, pki.goog, thawte.com
+marcusoscarsson.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+msb.se: globalsign.com, letsencrypt.org, telia.com
+thomann.se: digicert.com, letsencrypt.org, pki.goog
+mdfnet.se: comodo.com, letsencrypt.org
+kundo.se: amazon.com, digicert.com, globalsign.com, harica.gr, letsencrypt.org, sectigo.com
+comhem.se: digicert.com, sectigo.com
+accum.se: letsencrypt.org, sectigo.com
+nibe.se: digicert.com, letsencrypt.org, pki.goog
+hornbach.se: amazon.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com
+swedavia.se: amazon.com, comodoca.com, digicert.com, letsencrypt.org, telia.com
+ving.se: digicert.com, globalsign.com, letsencrypt.org
+hhs.se: digicert.com, entrust.net, harica.gr, letsencrypt.org, pki.goog, sectigo.com
+allas.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+ahlens.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+imy.se: globalsign.com, letsencrypt.org, sectigo.com
+familjeliv.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+fi.se: digicert.com, sectigo.com
+hant.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+elle.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+oderland.se: comodoca.com, geotrust.com, letsencrypt.org, rapidssl.com, symantec.com
+starwebserver.se: amazon.com, comodoca.com, letsencrypt.org
+skelleftea.se: letsencrypt.org, symantec.com
+griffel.se: amazon.com, digicert.com, letsencrypt.org
+compricer.se: amazon.com, digicert.com, globalsign.com, letsencrypt.org
+unibet.se: amazon.com, letsencrypt.org, ssl.com, trustwave.com
+studentnatet.se: letsencrypt.org, sectigo.com
+spp.se: amazon.com, buypass.no, digicert.com, globalsign.com, letsencrypt.org, pki.goog
+svenskdam.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+apollo.se: amazon.com, comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+iis.se: amazon.com, digicert.com, letsencrypt.org, sectigo.com
+dinstudio.se: globalsign.com, godaddy.com, letsencrypt.org, sectigo.com
+strawberry.se: Digicert.com, amazonaws.com, buypass.com, letsencrypt.org, sectigo.com
+sportadmin.se: amazon.com, digicert.com, letsencrypt.org, sectigo.com
+interlan.se: awstrust.com, comodoca.com, digicert.com, letsencrypt.org
+gamereactor.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+bksn.se: letsencrypt.org, sectigo.com
+grnh.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, godaddy.com, letsencrypt.org
+hv.se: digicert.com, harica.gr, sectigo.com
+kivra.se: digicert.com, letsencrypt.org, pki.goog
+vinnova.se: digicert.com, harica.gr, sectigo.com
+sis.se: digicert.com, letsencrypt.org, pki.goog
+hig.se: harica.gr, letsencrypt.org, sectigo.com
+femina.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+hsb.se: amazon.com, digicert.com, godaddy.com, letsencrypt.org, sectigo.com
+teracom.se: Digicert.com, letsencrypt.org
+reseguiden.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+univer.se: amazon.com, certainly.com, letsencrypt.org, pki.goog, sectigo.com
+mau.se: digicert.com, harica.gr, letsencrypt.org, pki.goog, sectigo.com
+bluerange.se: comodoca.com, letsencrypt.org
+molndal.se: digicert.com, globalsign.com, letsencrypt.org
+naturskyddsforeningen.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog
+svk.se: amazon.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+his.se: harica.gr, letsencrypt.org, sectigo.com
+irf.se: harica.gr, letsencrypt.org
+danskebank.se: amazon.com, entrust.net, globalsign.com
+gavle.se: letsencrypt.org, telia.com
+hj.se: harica.gr, letsencrypt.org
+internetstiftelsen.se: comodoca.com, letsencrypt.org
+krisinformation.se: globalsign.com, letsencrypt.org, telia.com
+lund.se: digicert.com, globalsign.com, letsencrypt.org
+norrkoping.se: globalsign.com, letsencrypt.org
+mah.se: digicert.com, harica.gr, letsencrypt.org, sectigo.com
+addpro.se: digicert.com, godaddy.com
+ju.se: harica.gr, letsencrypt.org
+qasa.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, letsencrypt.org
+lakemedelsverket.se: digicert.com, letsencrypt.org, pki.goog, telia.com
+ekonomibladet.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+klocksnack.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+it-total.se: digicert.com, letsencrypt.org
+dustin.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+lfv.se: digicert.com, harica.gr
+bredbandskollen.se: comodoca.com, letsencrypt.org
+poise.se: digicert.com, sectigo.com
+sgu.se: digicert.com, letsencrypt.org
+nk.se: globalsign.com, letsencrypt.org, pki.goog
+cancerfonden.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com, telia.se
+okq8.se: amazontrust.com, buypass.com, digicert.com, letsencrypt.org, pki.goog
+scilifelab.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, globalsign.com, harica.gr, letsencrypt.org, pki.goog, sectigo.com
+nacka.se: letsencrypt.org, www.digicert.com
+getgeek.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+halmstad.se: digicert.com, letsencrypt.org, telia.com
+resursbank.se: amazon.com, buypass.com, digicert.com, letsencrypt.org, pki.resurs.se, trustzone.com
+storspelare.se: letsencrypt.org, securetrust.com, ssl.com, trustwave.com
+tele2vaxel.se: letsencrypt.org, sectigo.com
+operan.se: alphassl.com, comodoca.com, digicert.com, globalsign.com, godaddy.com, letsencrypt.org, pki.goog, ssl.com
+postkodlotteriet.se: amazon.com, globalsign.com, letsencrypt.org, pki.goog
+uguu.se: letsencrypt.org, sectigo.com, zerossl.com
+aklagare.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, prosecutor.se, ssl.com
+ale.se: digicert.com, letsencrypt.org
+taxistockholm.se: digicert.com, godaddy.com, letsencrypt.org
+dustinhome.se: amazon.com, amazonaws.com, amazontrust.com, amazonws.com, awstrust.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+paf.se: amazon.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+mariacasino.se: letsencrypt.org, securetrust.com, ssl.com, trustwave.com
+nekover.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+sbab.se: amazonaws.com, buypass.com, digicert.com, globalsign.com
+bilprovningen.se: digicert.com, godaddy.com, letsencrypt.org
+citymail.se: godaddy.com, letsencrypt.org
+citygross.se: globalsign.com, letsencrypt.org, sectigo.com
+fhs.se: digicert.com, harica.gr, sectigo.com
+fdab.se: letsencrypt.org, sectigo.com
+ottocasino.se: letsencrypt.org, trustwave.com
+snalltaget.se: digicert.com, letsencrypt.org, sectigo.com
+maklarhuset.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+jotex.se: amazon.com, digicert.com, godaddy.com, letsencrypt.org, pki.goog
+84grams.se: letsencrypt.org, sectigo.com
+synoptik.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+skno.se: globalsign.com, letsencrypt.org
+getyourguide.se: amazon.com, digicert.com, letsencrypt.org, pki.goog
+qx.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog
+notino.se: comodoca.com, digicert.com, geotrust.com, letsencrypt.org, pki.goog, ssl.com
+walley.se: digicert.com, letsencrypt.org, pki.goog
+sweroam.se: comodoca.com, letsencrypt.org
+advania.se: digicert.com, letsencrypt.org, pki.goog
+varnamo.se: digicert.com, letsencrypt.org
+goldenbull.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+benders.se: digicert.com, letsencrypt.org
+alltforforaldrar.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+westpay.se: digicert.com, letsencrypt.org
+rjl.se: acme.trust.telia.com, letsencrypt.org, telia.com
+emp-shop.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org, sectigo.com
+harnosand.se: letsencrypt.org, telia.com
+travronden.se: letsencrypt.org, pki.goog, sectigo.com
+korkortonline.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, letsencrypt.org
+bokio.se: digicert.com, godaddy.com, letsencrypt.org, pki.goog
+svtbarn.se: awstrust.com, digicert.com, letsencrypt.org
+klarna.se: amazonaws.com, digicert.com
+wurth.se: amazonaws.com, digicert.com, sectigo.com
+banknorwegian.se: digicert.com, letsencrypt.org
+miinto.se: certum.pl, digicert.com
+homeroom.se: amazon.com, digicert.com, letsencrypt.org, pki.goog
+preem.se: digicert.com, letsencrypt.org, telia.com
+sollentuna.se: digicert.com, letsencrypt.org
+vakanser.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+bokmassan.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+fora.se: digicert.com, letsencrypt.org, sectigo.com
+swehosting.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+yasuragi.se: digicert.com, letsencrypt.org
+ronneby.se: globalsign.com, letsencrypt.org
+nordichardware.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+hygglo.se: amazon.com, letsencrypt.org
+stoppapressarna.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+ballingslov.se: digicert.com, godaddy.com, letsencrypt.org
+itsystem.se: globalsign.com, letsencrypt.org
+collector.se: digicert.com, letsencrypt.org, pki.goog
+svenskamassan.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com, telia.com, telia.fi, telia.se
+tutus.se: digicert.com, letsencrypt.org
+poolia.se: digicert.com, letsencrypt.org
+astridlindgrensvarld.se: digicert.com, letsencrypt.org
+kungaslottet.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+designtorget.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+gleerups.se: amazon.com, digicert.com, letsencrypt.org
+binogi.se: amazon.com, letsencrypt.org
+56kilo.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+ams.se: globalsign.com, telia.com
+boxer.se: digicert.com, sectigo.com
+iceops.se: digicert.com, letsencrypt.org
+siriusomsorg.se: digicert.com, godaddy.com, letsencrypt.org
+coolshop.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+casinogringos.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+spelbutiken.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+nackaenergi.se: letsencrypt.org, www.digicert.com
+tsabmedlem.se: digicert.com, godaddy.com, letsencrypt.org
+sveataxi.se: digicert.com, godaddy.com, letsencrypt.org
+chrono24.se: amazonaws.com, digicert.com, godaddy.com, letsencrypt.org, sectigo.com
+dackonline.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+jokersystemet.se: letsencrypt.org, pki.goog, sectigo.com
+medley.se: digicert.com, godaddy.com, letsencrypt.org, sectigo.com
+showtic.se: digicert.com, letsencrypt.org, pki.goog, sectigo.com
+smarteyes.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+samkom.se: digicert.com, globalsign.com, godaddy.com
+academiccomputerclub.se: letsencrypt.org, sectigo.com
+gjensidige.se: buypass.no, digicert.com
+lidingo.se: globalsign.com, letsencrypt.org
+minmyndighetspost.se: digicert.com, telia.com
+kontorsgiganten.se: awstrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+uppsalahem.se: globalsign.com, letsencrypt.org, sectigo.com
+taxistockholmacademy.se: digicert.com, godaddy.com, letsencrypt.org
+ivo.se: digicert.com, sectigo.com
+receptonline.se: letsencrypt.org, pki.goog, sectigo.com
+lantbruksnytt.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+irfu.se: harica.gr, letsencrypt.org
+opus.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+selea.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, rapidssl.com, ssl.com
+bastacasinobonus.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+optimalprint.se: amazonaws.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+vanersborg.se: globalsign.com, letsencrypt.org, sectigo.com
+fashiola.se: amazon.com, letsencrypt.org
+zizzi.se: amazonaws.com, globalsign.com, pki.goog
+brollopstorget.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+timra.se: globalsign.com, letsencrypt.org, telia.com
+liveagent.se: amazon.com, letsencrypt.org
+gameshop.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+emocore.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+kvibergs.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+pokerstars.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+1x2.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+stockholmsmassan.se: digicert.com, letsencrypt.org
+academicwork.se: amazonaws.com, digicert.com, letsencrypt.org, sectigo.com
+habokommun.se: digicert.com, globalsign.com, letsencrypt.org, telia.com
+hittamaklare.se: amazon.com, letsencrypt.org
+innovationmanagement.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+bankomat.se: Rapidssl.com, digicert.com, globalsign.com, sectigo.com
+ljusdal.se: digicert.com, godaddy.com, letsencrypt.org
+nordsys.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+happy-day.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+handlarbudet.se: certum.pl, sectigo.com
+hifitorget.se: amazon.com, awstrust.com, letsencrypt.org
+jlt.se: letsencrypt.org, telia.com
+lensway.se: globalsign.com, letsencrypt.org
+okq8bank.se: buypass.no, digicert.com, globalsign.com
+tradingsolutions.se: digicert.com, letsencrypt.org
+travelmarket.se: amazontrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+encycolorpedia.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+friends.se: letsencrypt.org, pki.goog
+appwi.se: digicert.com, letsencrypt.org
+albanova.se: digicert.com, harica.gr, letsencrypt.org, sectigo.com
+cgi.se: entrust.net, letsencrypt.org
+gorymoon.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+ngm.se: digicert.com, letsencrypt.org, pki.goog
+mpa.se: digicert.com, letsencrypt.org, pki.goog, telia.com
+polistidningen.se: comodoca.com, digicert.com, letsencrypt.org
+formas.se: harica.gr, letsencrypt.org, sectigo.com
+stim.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+svenskacasino.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+giftinformation.se: digicert.com, letsencrypt.org, pki.goog, telia.com
+riksgalden.se: efos.se, globalsign.com, letsencrypt.org
+bostadshub.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+vikoperdinbil.se: amazon.com, letsencrypt.org
+miele.se: awstrust.com, digicert.com
+residencemagazine.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+monsteras.se: letsencrypt.org, sectigo.com, telia.fi
+calvinklein.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, godaddy.com, letsencrypt.org
+triop.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+uka.se: harica.gr, letsencrypt.org, sectigo.com
+fastpartner.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+ninjacasino.se: amazon.com, digicert.com, pki.goog
+nordax.se: buypass.com, digicert.com, letsencrypt.org
+tyresobostader.se: letsencrypt.org, www.digicert.com
+linserv.se: letsencrypt.org, sectigo.com
+intinor.se: letsencrypt.org, pki.goog
+bis.se: amazon.com, amazontrust.com, pki.apple.com
+habo.se: digicert.com, globalsign.com, letsencrypt.org, sectigo.com, swisssign.com
+linguee.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+vincents.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+skrotbilarna.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+svedala.se: letsencrypt.org, sectigo.com
+horze.se: digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+ilva.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+skolfederation.se: amazon.com, comodoca.com, letsencrypt.org
+passasports.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+docplayer.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+nordicchoicehotels.se: buypass.com, letsencrypt.org
+kmh.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, harica.gr, letsencrypt.org, sectigo.com
+rule.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+atlan.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+penny.se: digicert.com, sectigo.com
+landlantbruk.se: amazon.com, letsencrypt.org
+nwise.se: amazon.com, letsencrypt.org, sectigo.com
+lux-case.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+nutri.se: globalsign.com, letsencrypt.org
+ikanobostad.se: letsencrypt.org, sectigo.com
+misterspex.se: amazon.com, letsencrypt.org
+thelittlegreenbag.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+engelbert-strauss.se: digicert.com, letsencrypt.org
+tctc.se: awstrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+openstreetmap.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+brollopssida.se: letsencrypt.org, pki.goog, sectigo.com
+radio.se: amazontrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+orust.se: digicert.com, letsencrypt.org, pki.goog
+pokerstarscasino.se: amazonaws.com, digicert.com
+lomma.se: digicert.com, globalsign.com, letsencrypt.org
+sporthalsa.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+kase.se: globalsign.com, letsencrypt.org
+alten.se: digicert.com, globalsign.com, letsencrypt.org, sectigo.com
+ulricehamn.se: digicert.com, globalsign.com, godaddy.com, letsencrypt.org
+ekonomifokus.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+tidaholm.se: globalsign.com, letsencrypt.org
+3cx.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+webb.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+skavsta.se: digicert.com, geotrust.com, letsencrypt.org
+smartrefill.se: letsencrypt.org, vikingcloud.com
+stromsund.se: acme.trust.telia.com, telia.com
+precisely.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+axima.se: digicert.com, letsencrypt.org
+outnorth.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+xpd.se: digicert.com, letsencrypt.org
+bookoutlet.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+weleda.se: digicert.com, letsencrypt.org, sectigo.com
+haparanda.se: globalsign.com, letsencrypt.org, sectigo.com
+budofitness.se: amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+hallandstrafiken.se: digicert.com, globalsign.com, letsencrypt.org, pki.goog
+hms.se: digicert.com, godaddy.com, letsencrypt.org, sectigo.com
+bilskrotgbg.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+eventbrite.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com
+winlas.se: digicert.com, letsencrypt.org
+toogoodtogo.se: amazon.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+soderkoping.se: digicert.com, entrust.net, letsencrypt.org, sectigo.com, telia.com
+zavann.se: digicert.com, geotrust.com, letsencrypt.org, www.digicert.com
+brukshundklubben.se: digicert.com, letsencrypt.org
+herjedalen.se: letsencrypt.org, telia.com, telia.se
+niteco.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+alina.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+autopower.se: globalsign.com, letsencrypt.org
+avida.se: amazon.com, certainly.com, globalsign.com, godaddy.com, letsencrypt.org
+fairlo.se: amazon.com, letsencrypt.org
+fenixbegravning.se: amazon.com, amazonaws.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+jnf.se: letsencrypt.org, ssl.com
+lakemedelsboken.se: digicert.com, letsencrypt.org, pki.goog, telia.com
+matched.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+morrowbank.se: buypass.no, digicert.com, letsencrypt.org
+mollerbil.se: amazon.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+natfinans.se: amazon.com, letsencrypt.org, sectigo.com
+ortopedbutiken.se: letsencrypt.org, pki.goog, ssl.com
+saseurobonusmastercard.se: amazonaws.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+scandinavianoutdoor.se: letsencrypt.org, sectigo.com
+shiplink.se: comodoca.com, letsencrypt.org, pki.goog
+storkoksbutiken.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+travrondenspel.se: letsencrypt.org, pki.goog, sectigo.com
+trucker.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+xn--pltgrossisten-qfb.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+winetable.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+rymdstyrelsen.se: harica.gr, letsencrypt.org, sectigo.com
+sebank.se: amazonaws.com, digicert.com, entrust.net, letsencrypt.org, pki.goog, sectigo.com
+forte.se: harica.gr, letsencrypt.org, sectigo.com
+testdns.se: Digicert.com, entrust.net, pkioverheid.nl, quovadisglobal.com, sectigo.com
+hostinger.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+getswish.se: digicert.com, pki.goog
+kodmyran.se: amazontrust.com, digicert.com, geotrust.com, letsencrypt.org, sectigo.com
+kostdoktorn.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, letsencrypt.org
+jack-wolfskin.se: amazon.com, digicert.com, godaddy.com, letsencrypt.org
+dinsakerhet.se: globalsign.com, telia.com
+gorillasports.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+al.se: comodoca.com, digicert.com, godaddy.com, letsencrypt.org, pki.goog, sectigo.com
+azeo.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+sunne.se: digicert.com, letsencrypt.org, pki.goog, sectigo.com
+spv.se: digicert.com, telia.com, telia.se
+speedledger.se: amazon.com, letsencrypt.org
+dnb.se: amazon.com, buypass.com, digicert.com, letsencrypt.org
+maxm.se: digicert.com, letsencrypt.org, pki.goog, sectigo.com
+mobitime.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+boupplysningen.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+sverigekredit.se: cloudflare, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+fogelholk.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+bosab.se: digicert.com, godaddy.com, letsencrypt.org
+casinotop10.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+dofton.se: comodoca.com, digicert.com, godaddy.com, letsencrypt.org, pki.goog, ssl.com
+favi.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+flaconi.se: amazon.com, comodoca.com, digicert.com, globalsign.com, godaddy.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+insikt.se: godaddy.com, pki.goog
+made4men.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+setterwalls.se: amazon.com, digicert.com, letsencrypt.org, sectigo.com
+skimsafe.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, ssl.com
+studi.se: amazon.com, letsencrypt.org
+vertiseit.se: comodoca.com, globalsign.com, letsencrypt.org
+vwfs.se: amazon.com, digicert.com
+vzv.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+internetmuseum.se: comodoca.com, letsencrypt.org
+vulkanmedia.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+aino.se: letsencrypt.org, pki.goog, sectigo.com
+higab.se: letsencrypt.org, telia.se
+adecco.se: letsencrypt.org, sectigo.com
+gunneboslott.se: digicert.com, globalsign.com, letsencrypt.org
+interwebsite.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+hagabadet.se: comodoca.com, letsencrypt.org
+hemmakvall.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+spendwise.se: amazonaws.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com
+ixpress.se: digicert.com, letsencrypt.org, pki.goog
+alekuriren.se: letsencrypt.org, ssl.com
+spadercasino.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+hagfors.se: digicert.com, letsencrypt.org
+wiro.se: letsencrypt.org, pki.goog
+svenljunga.se: letsencrypt.org, sectigo.com
+uppvidinge.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+compsec.se: godaddy.com, letsencrypt.org
+creativity.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+jhsupport.se: amazontrust.com, globalsign.com, letsencrypt.org, sectigo.com, zerossl.com
+ebay.se: comodoca.com, symantec.com
+visumservice.se: amazon.com, comodoca.com, digicert.com, godaddy.com, letsencrypt.org, pki.goog, ssl.com
+wolfswinkel.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+atriumljungberg.se: comodoca.com, letsencrypt.org, sectigo.com
+babysits.se: amazon.com, letsencrypt.org
+ahlensoutlet.se: digicert.com, letsencrypt.org
+arcadiafinans.se: amazon.com, letsencrypt.org
+autostylingstockholm.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+sneak.se: globalsign.com, letsencrypt.org
+vocali.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+xplora.se: letsencrypt.org, pki.goog, ssl.com
+tranemo.se: digicert.com, globalsign.com, letsencrypt.org
+cloudpro.se: digicert.com, godaddy.com, letsencrypt.org
+jobsinsweden.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+academicpositions.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+eurocard.se: amazonaws.com, digicert.com, entrust.net, letsencrypt.org, pki.goog, sectigo.com
+ragunda.se: letsencrypt.org, telia.com
+techsoup.se: globalsign.com, letsencrypt.org, sectigo.com
+berg.se: globalsign.com, letsencrypt.org
+vinello.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+casinoepic.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+berlingmedia.se: digicert.com, letsencrypt.org, rapidssl, sectigo.com
+hejsenior.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+dafo.se: letsencrypt.org, sectigo.com, telia.com
+stralfors.se: acme.trust.telia.com, globalsign.com
+math-stockholm.se: harica.gr, letsencrypt.org
+mellerud.se: letsencrypt.org, sectigo.com
+opti.se: amazon.com, digicert.com, letsencrypt.org, sectigo.com, ssl.com
+kortspelarna.se: letsencrypt.org, pki.goog, sectigo.com
+vikingiptv4k.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+ac2.se: letsencrypt.org, sectigo.com
+ftn.se: expisoft.se, globalsign.com, letsencrypt.org
+eurogroup.se: letsencrypt.org, sectigo.com
+loxysoft.se: digicert.com, letsencrypt.org
+ap3.se: digicert.com, letsencrypt.org
+framtiden.se: letsencrypt.org, telia.se
+vinborsen.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+klientportal.se: digicert.com, letsencrypt.org, www.digicert.com
+makerspace.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+you.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+apsis.se: amazon.com, comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+carnaby.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+genesis.se: digicert.com, letsencrypt.org, sectigo.com
+fastdev.se: amazon.com, letsencrypt.org, sectigo.com
+furuboda.se: amazon.com, letsencrypt.org
+ariso.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+europa-lastbilar.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+molnsatra.se: letsencrypt.org, pki.goog, sectigo.com
+minameddelanden.se: digicert.com, telia.com, telia.fi, telia.se
+ockelbo.se: letsencrypt.org, telia.com
+ubm.se: digicert.com, letsencrypt.org
+via-mobilis.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+makada.se: letsencrypt.org, makada.se
+eurotransport.se: letsencrypt.org, sectigo.com
+ip-solutions.se: letsencrypt.org, pki.goog
+frosunda.se: digicert.com, letsencrypt.org
+rmv.se: expisoft.se, letsencrypt.org, www.digicert.com
+intentia.se: amazon.com, digicert.com, letsencrypt.org, sectigo.com
+gic.se: digicert.com, letsencrypt.org, pki.goog, telia.com
+nsdev.se: digicert.com, letsencrypt.org, sectigo.com
+swedenconnect.se: amazon.com, digicert.com, letsencrypt.org, telia.com
+simonsoftcms.se: amazonaws.com, letsencrypt.org
+falk-net.se: letsencrypt.org, sectigo.com
+lbhus.se: godaddy.com, letsencrypt.org, starfieldtech.com
+netpul.se: comodoca.com, digicert.com, globalsign.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
+festhemsida.se: letsencrypt.org, pki.goog, sectigo.com
+ljusnarsberg.se: letsencrypt.org, telia.com
+researchonline.se: digicert.com, symantec.com
+nsqa.se: digicert.com, letsencrypt.org, sectigo.com
+resurs.se: amazon.com, buypass.com, digicert.com, letsencrypt.org, pki.resurs.se, trustzone.com
+omegapoint.se: amazon.com, amazonaws.com, amazontrust.com, awstrust.com, digicert.com, letsencrypt.org, sectigo.com
+mcf.se: globalsign.com, letsencrypt.org, telia.com
+matthews.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, ssl.com
+datacom.se: globalsign.com, letsencrypt.org, stendorren.se
+yosh.se: comodoca.com, letsencrypt.org
+thorsen.se: letsencrypt.org, pki.goog
+numera.se: letsencrypt.org, pki.goog
+lidk.se: comodoca.com, digicert.com, letsencrypt.org, pki.goog, sectigo.com, ssl.com
