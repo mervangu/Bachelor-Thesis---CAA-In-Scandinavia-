@@ -2,6 +2,18 @@
 
 A Bash script for scanning a list of domains for CAA DNS records using ZDNS. It separates domains with valid CAA records from those that returned no response or an error, and outputs both full JSON results and filtered CSV lists.
 
+## Pipeline
+
+This script is the second step in a three-script pipeline:
+
+```
+extractdomains.sh  →  extractCAA.sh  →  CAAanalysis.sh
+```
+
+1. `extractdomains.sh` extracts domain lists from a Tranco CSV file
+2. `extractCAA.sh` scans those domains for CAA records using ZDNS
+3. `CAAanalysis.sh` analyses the ZDNS output and generates reports
+
 ## Requirements
 
 - Bash 4.0 or later
