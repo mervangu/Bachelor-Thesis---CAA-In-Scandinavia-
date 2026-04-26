@@ -1,6 +1,6 @@
 # CAA DNS Record Analysis - Bachelor Thesis Dataset
 
-This repository contains datasets and analysis scripts for the bachelor thesis **"CAA DNS Record Adoption and Configuration Quality Across Scandinavian Domains"** by Mervan Gurbuz at Noroff University College.
+This repository contains datasets and analysis scripts for the bachelor thesis **"CAA DNS Record Adoption and Configuration Quality Across Scandinavian Domains"** by Mervan Güler at Noroff University College.
 
 ## Overview
 
@@ -24,14 +24,20 @@ This research examines the adoption and configuration of DNS Certification Autho
 ## Datasets
 
 ### Dataset 1: Monthly Tranco Top 1M Scans
-Monthly snapshots of Scandinavian domains (.no, .se, .dk) from the Tranco Top 1M list, filtered for domains with CAA records.
+Monthly snapshots of Scandinavian domains (.no, .se, .dk) along with Global Top 10K excluding Scandinavian domains from the Tranco Top 1M list.
 
 - **Time period**: November 2025 - April 2026
-- **Source**: Tranco Top 1M ranking list and Tranco Full list
-- **Scan tool**: ZDNS and dig 
+- **Source**: Tranco Top 1M ranking list 
 
-### Dataset 2: Frozen Sector-Specific Domains
-Manually curated domain lists across five critical sectors, scanned in November 2025 and re-scanned in April 2026 to track configuration changes.
+### Dataset 2: Frozen Domains
+Top 100k domains from the the Tranco Full list, all domains from Norway, all domains from Sweden and all domains from Denmark. 
+
+- **Time period**: Scanned in November 2025 and re-scanned in April 2026 to track configuration changes.
+- **Source**: Tranco Full list
+
+### Dataset 3: Sector-based 
+
+Manually curated domain lists across five critical sectors in Norway, Sweden and Denmark: 
 
 **Sectors**:
 - Banking and financial institutions
@@ -40,39 +46,19 @@ Manually curated domain lists across five critical sectors, scanned in November 
 - Universities and educational institutions
 - Telecommunications providers
 
-**Countries**: Norway, Sweden, Denmark
-
-### Dataset 3: Global Reference Dataset
-Global Top 10K and Top 100K domains with CAA records, used as baseline for comparative analysis.
+- **Time period**: November 2025 - April 2026
 
 ## Scripts
 
+### `extractdomains.sh`
+Get all the domains from Norway, Sweden and Denmark, also get 100k excluding Scandinavian domains. 
+
+### `extractCAA.sh`
+Extract domains that publish CAA using ZDNS. 
+
 ### `CAAanalysis.sh`
-Primary analysis script for processing ZDNS JSON output.
+Primary analysis script for processing JSON output.
 
-**Usage**:
-```bash
-./CAAanalysis.sh <input_file.json> <output_prefix>
-```
-
-**Example**:
-```bash
-./CAAanalysis.sh NORWAY_with_caa.json NORWAY_APR
-```
-
-**Features**:
-- Tag usage statistics (issue, issuewild, iodef)
-- Tag combination analysis
-- Certificate Authority rankings with parameter normalization
-- Configuration error detection (misspelled tags)
-- Multi-CA authorization analysis
-
-**Output files**:
-- `[PREFIX]_caa_analysis.txt` - Detailed statistical report
-- `[PREFIX]_caa_summary.csv` - Per-domain CSV data
-- `[PREFIX]_multiple_cas.txt` - Domains authorizing multiple CAs
-- `[PREFIX]_issue_and_issuewild.txt` - Domains using both issue and issuewild tags
-- `[PREFIX]_all_three_tags.txt` - Domains implementing all three CAA tags
 
 ## Key Findings
 
@@ -80,13 +66,6 @@ Primary analysis script for processing ZDNS JSON output.
 - **iodef adoption**: 29-42% in Scandinavian datasets vs. 2-7% globally (5-6x higher)
 - **Multi-CA authorization**: 64-70% of domains authorize multiple Certificate Authorities
 - **Regional CAs**: Buypass (Norway), Telia (Sweden), HARICA (universities), Commfides (Norwegian public sector)
-
-## Research Context
-
-This work builds on prior CAA adoption studies:
-- Ruohonen (2019) - Alexa Top 1M analysis
-- Izhikevich et al. (2022) - ZDNS global scan
-- Fotouhi Tehrani et al. (2024) - Tranco Top 4M analysis
 
 ## License
 
