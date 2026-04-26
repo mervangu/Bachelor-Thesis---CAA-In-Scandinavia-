@@ -2,6 +2,18 @@
 
 A Bash script for extracting Scandinavian and global domain lists from a Tranco CSV file. It separates Norwegian, Swedish, and Danish domains by TLD and builds a filtered global reference list excluding all Scandinavian domains.
 
+## Pipeline
+
+This script is the first step in a three-script pipeline:
+
+```
+extractdomains.sh  →  extractCAA.sh  →  CAAanalysis.sh
+```
+
+1. `extractdomains.sh` extracts domain lists from a Tranco CSV file
+2. `extractCAA.sh` scans those domains for CAA records using ZDNS
+3. `CAAanalysis.sh` analyses the ZDNS output and generates reports
+
 ## Usage
 
 ```bash
