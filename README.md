@@ -50,6 +50,13 @@ Manually curated domain lists across five critical sectors in Norway, Sweden and
 
 ## Scripts
 
+## Pipeline
+
+This script is the second step in a three-script pipeline:
+
+```
+extractdomains.sh  →  extractCAA.sh  →  CAAanalysis.sh
+```
 ### `extractdomains.sh`
 Get all the domains from Norway, Sweden and Denmark, also get 100k excluding Scandinavian domains. 
 
